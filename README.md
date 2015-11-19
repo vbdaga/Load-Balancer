@@ -1,7 +1,7 @@
 # Load-Balancer
 This is a simulation of load balancer using round robin algorithm. There are three servers all doing same tasks and a balancer to schedule the task to the servers. Client sends two random number as message to load balancer which schedules the task to one of the server and the server outputs the sum of the two numbers. The connection between two process is done by using sockets and threads.
 
-##Installing the project
+##Running the project
 Run the following command in the installation directory.
 ```sh
 make
